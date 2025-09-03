@@ -29,8 +29,7 @@
   // Função que verifica quem venceu
   function verificar() {
     let t1 = document.getElementById('time1').value;
-    let g1 = parseInt(document.getElementById('
-gols1').value);
+    let g1 = parseInt(document.getElementById('gols1').value);
     let t2 = document.getElementById('time2').value;
     let g2 = parseInt(document.getElementById('gols2').value);
 
