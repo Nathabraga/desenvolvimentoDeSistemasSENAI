@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confeitaria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+    }
+    .bolos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .bolo {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      padding: 15px;
+    }
+    .bolo img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    @media (min-width: 600px) {
+      .bolos {
+        flex-direction: row;
+        justify-content: center;
+      }
+      .bolo {
+        width: 30%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Confeitaria da Turma</h1>
+    <p>Conheça três bolos deliciosos!</p>
+  </header>
+
+  <main class="bolos">
+    <div class="bolo">
+      <img src="bolo de chocolate.jpg" alt="Bolo de Chocolate">
+      <h2>Bolo de Chocolate</h2>
+      <p>Massa fofa de chocolate, recheio de brigadeiro e cobertura de ganache. Ideal para aniversários.</p>
+    </div>
+
+    <div class="bolo">
+      <img src="bolo de morango.jpg" alt="Bolo de Morango">
+      <h2>Bolo de Morango</h2>
+      <p>Massa branca, morangos frescos e chantilly leve. Perfeito para tardes especiais.</p>
+    </div>
+
+    <div class="bolo">
+      <img src="bolo de cenoura.jpg" alt="Bolo de Cenoura">
+      <h2>Bolo de Cenoura</h2>
+      <p>Massa úmida de cenoura e cobertura de chocolate. Combina com café da tarde.</p>
+    </div>
+  </main>
+</body>
+</html>
