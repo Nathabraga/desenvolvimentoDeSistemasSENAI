@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #111;
+}
+
+.logo {
+  width: 100px;
+}
+
+.user {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ff0000;
+}
+
+
+.banner {
+  height: 1300px;
+  background-image: url('narcos\ 1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+
+.banner-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+
+.btn {
+  padding: 12px 30px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botão secundário */
+.btn.secondary {
+  background-color: rgba(109, 109, 110, 0.7);
+}
+
+
+.btn:hover {
+  background-color: #f40612;
+  transform: scale(1.05);
+}
+
+.btn.secondary:hover {
+  background-color: rgba(109, 109, 110, 0.9);
+}
+
+/* SEÇÕES DE FILMES */
+.section {
+  padding: 20px 30px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.filmes {
+  display: flex;
+  gap: 15px;
+}
+
+.filme {
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.filme:hover {
+  transform: scale(1.05);
+}
+
+
+footer {
+  padding: 20px 30px;
+  text-align: center;
+  background-color: #111;
+  font-size: 14px;
+  color: #888;
+}
