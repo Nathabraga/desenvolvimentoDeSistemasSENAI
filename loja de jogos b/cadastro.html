@@ -1,0 +1,54 @@
+	<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameShop</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="cadastrologin.css">
+</head>
+
+<body>
+    <main>
+        <div id="bannerCadastro"></div>
+
+        <div id="formularioCadastro">
+
+
+            <h3>Cadastro</h3>
+
+            <form method="get" action="#">
+
+                <div class="inputlabel">
+                    <label for="nome">Digite seu nome*: </label>
+                    <input required id="nome" placeholder="Ex: Davi " type="text">
+                </div>
+
+                <div class="inputlabel">
+                    <label for="email">Digite seu email*: </label>
+                    <input required id="email" placeholder="Ex: davi@gmail.com " type="text">
+                </div>
+
+                <div class="inputlabel">
+                    <label for="idade">Digite sua idade*: </label>
+                    <input min="15" max="200" step="1" required id="idade" placeholder="Ex: 17 anos " type="text">
+                </div>
+
+                <div class="inputlabel">
+                    <label for="senha">Crie sua senha*: </label>
+                    <input id="senha" type="text">
+                </div>
+
+                <div class="inputlabel" id="labelbutton">
+                    <!-- <input type="button" value="cadastrar"> -->
+                    <button type="submit">cadastrar</button>
+                    <button type="reset">Apagar</button>
+                </div>
+
+                <a href="../index.html"> <- voltar</a>
+
+            </form>
+        </div>
+    </main>
+</body>

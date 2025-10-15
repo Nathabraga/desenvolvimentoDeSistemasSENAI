@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --marrom: black;
+    --vermelho: red;
+    --laranja: rgb(255, 94, 0);
+    --amarelo: yellow;
+}
+
+#banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+}
+
+#bannerTexto{
+    width: 40%;
+    height: 33%;
+    padding: 20px;
+    background-color: rgba(255, 94, 0, 0.534);
+}
+
+#pagamentoPr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tiposPagamento{
+    width: 80%;
+    padding: 20px;
+    background-color: var(--vermelho);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagamento{
+    width: 30%;
+    padding: 20px;
+    background-color: aqua;
+}
